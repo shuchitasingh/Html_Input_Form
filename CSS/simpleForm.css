@@ -1,0 +1,80 @@
+html, input{
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 2em;
+    background-color: lightblue;
+}
+
+.headerContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: darkblue;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+form{
+    margin-top: 50px;
+    background-color: lightcyan;
+}
+
+div{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label, input, button{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+label{
+    font-weight: bold;
+    text-align: right;
+    width: 30%;
+    margin-right: 4%;
+}
+
+input{
+    flex: auto;
+    margin-right: 2%;
+}
+
+button{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    background-color: black;
+    color: white;
+}
+
+error-output{
+    font-size: 12px;
+    font-style: italic;
+    margin-right: 2%;
+    color: red;
+}
+
+.salary-output{
+    margin-right: 2%;
+}
+
+@media only screen and (max-width: 360px){
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    label{
+        width: 40%;
+        font-size: 14px;
+    }
+}
